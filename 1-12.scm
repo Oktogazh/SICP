@@ -1,0 +1,5 @@
+(define (pascal x y)
+  (cond ((= x -1) 0)
+    ((= (+ x y) 0) 1)
+    (else (+ (pascal (- x 1) y)
+      (pascal (- y 1) x)))))
