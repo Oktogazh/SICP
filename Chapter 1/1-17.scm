@@ -1,4 +1,4 @@
-(define (f* a b)
+(define (fast* a b)
   (if (= b 0)
     0
     (if (even? b)
